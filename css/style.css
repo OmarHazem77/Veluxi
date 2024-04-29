@@ -1,0 +1,111 @@
+.bg-lightblue {
+    background-color: #b3e5fc;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+.searchform {
+    z-index: 999;
+}
+
+.form-control {
+    border: none;
+    border-right: 3px solid gray;
+}
+
+.col-4>img {
+    width: 200px;
+    height: 200px;
+}
+
+h4 {
+    color: cornflowerblue;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+
+}
+
+.offcanvas-body {
+    background-color: cornflowerblue;
+}
+
+.fonts {
+    font-size: 30px;
+}
+
+.background  img {
+    filter: blur(2px) ;
+    -webkit-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    z-index: -1;
+    background-size: cover;
+    filter: brightness(0.25);
+}
+.photo{
+    position: relative;
+    overflow: hidden;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.icon-container a {
+    display: block;
+
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 30px;
+
+}
+
+.icon-container a:hover {
+   background-color: cornflowerblue;
+}
+
+.icon-container h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.icon-container p {
+    margin: 0;
+    font-size: 14px;
+}
